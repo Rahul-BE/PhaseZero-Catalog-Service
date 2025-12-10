@@ -13,9 +13,8 @@ Run the application using:
 mvn spring-boot:run
 The API will be available at:
 
-arduino
-Copy code
 http://localhost:8080
+
 Endpoints Overview
 Method	Endpoint	Description
 GET	/catalog/getAll	Fetch all catalog items
@@ -133,10 +132,8 @@ Maven
 Postgres
 
 Assumptions and Limitations
+
 No authentication or authorization included
-
 No pagination on item listing
-
 partNumber must be unique for each item
-
 Basic CRUD operations only
